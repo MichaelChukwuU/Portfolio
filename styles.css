@@ -1,0 +1,30 @@
+body {
+  /* background-color: rgb(241,243,244); */
+  background-color: rgb(244, 244, 244);
+}
+.profile-img {
+  border-radius: 50%;
+}
+div.passport {
+  display: flex;
+  flex-direction: row;
+  justify-content: center !important;
+  
+}
+.text-bg-primary {
+  border-radius: 20% !important;
+  background-color: rgb(25, 135, 84) !important;
+}
+.link-success:hover {
+  color: black;
+  text-decoration: underline black;
+  transition-property: color;
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+.emailme:hover {
+  color: white !important;
+  text-decoration: underline white !important;
+  transition-property: text !important;
+  transition-duration: 0.1s !important;
+}
